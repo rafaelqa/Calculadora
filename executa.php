@@ -16,8 +16,8 @@ function __autoload($classname) {
 //} else{
 //	echo "comandos não adequados ao padrão exigido \n";
 //}
-
-
+unset( $argv[0],$argv[1] );
+$argv = array_values($argv);
 $O = new \Math\Operation();
 echo $O->sum(1,2,3,4,5); //15
 echo "\n";
