@@ -1,2 +1,2 @@
 # Calculadora
-calculadora aprendizado
+Projeto calculadora aplicado ao aprendizado de git e gitHub.
