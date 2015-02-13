@@ -19,5 +19,5 @@ function __autoload($classname) {
 unset( $argv[0],$argv[1] );
 $argv = array_values($argv);
 $O = new \Math\Operation();
-echo $O->sum(1,2,3,4,5); //15
+echo $s = call_user_func_array(array($O, 'sum'), $argv);
 echo "\n";
